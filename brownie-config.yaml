@@ -10,6 +10,12 @@ compiler:
 dotenv: .env
 networks:
   default: development
+  harmony-main:
+    eth_usd_price_feed: '0xbaf7C8149D586055ed02c286367A41E0aDA96b7C'
+    verify: True
+  harmony-test3:
+    eth_usd_price_feed: '0x4f11696cE92D78165E1F8A9a4192444087a45b64'
+    verify: False 
   rinkeby:
     eth_usd_price_feed: '0x8A753747A1Fa494EC906cE90E9f37563A8AF630e'
     verify: True
@@ -22,3 +28,8 @@ networks:
     verify: False
 wallets:
   from_key: ${PRIVATE_KEY}
+  expenseWallet: ${EXPENSE_WALLET}
+  stakingWallet: ${STAKING_WALLET}
+  liquidityWallet: ${LIQUIDITY_WALLET}
+  recipient: ${RECIPIENT}
+

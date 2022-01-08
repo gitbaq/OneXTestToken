@@ -1,0 +1,16 @@
+{
+    "solidity-va.deco.statevars": true,
+    "solidity-va.deco.arguments": true,
+    "solidity-va.hover": true,
+    "solidity-va.outline.decorations": true,
+    "solidity-va.outline.enable": true,
+    "solidity-va.outline.var.storage_annotations": true,
+    "solidity-va.outline.pragmas.show": true,
+    "solidity-va.outline.imports.show": true,
+    "solidity-va.parser.parseImports": true,
+    "python.testing.pytestArgs": [
+        "contracts"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}

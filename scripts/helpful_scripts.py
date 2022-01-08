@@ -21,6 +21,6 @@ def get_account():
 def deploy_mocks():
     print(f"The active network is {network.show_active()}")
     print("Deploying Mocks...")
-    if len(MockV3Aggregator) <= 0:
-        MockV3Aggregator.deploy(DECIMALS, STARTING_PRICE, {"from": get_account()})
+    # if len(MockV3Aggregator) <= 0:
+    #     MockV3Aggregator.deploy(DECIMALS, STARTING_PRICE, {"from": get_account()})
     print("Mocks Deployed!")
