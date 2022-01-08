@@ -1,8 +1,8 @@
 //SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.0;
-import "./IDividendDistributor.sol";
-import "./IDEXRouter.sol";
+import "https://github.com/gitbaq/OneXTestToken/blob/master/contracts/IDividendDistributor.sol";
+import "https://github.com/gitbaq/OneXTestToken/blob/master/contracts/IDEXRouter.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
 
